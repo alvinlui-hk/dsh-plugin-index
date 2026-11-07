@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "title": { "en": "Alvin's DSH Plugins", "zh": "Alvin 嘅 DSH 插件" },
+  "description": { "en": "Community plugins by alvinlui-hk for DeepSeek Harness.", "zh": "alvinlui-hk 為 DeepSeek Harness 整嘅社群插件。" },
+  "metadata": {
+    "categories": {
+      "browser": { "title": { "en": "Browser & Web", "zh": "瀏覽器與網頁" } }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@alvinlui-hk/dsh-browser-bridge",
+      "title": { "en": "Browser Bridge", "zh": "瀏覽器橋接" },
+      "description": {
+        "en": "Let agents read and control the web page open in the right Sidebar Browser tab (Desktop: full read/act/screenshot; Web: same-origin only).",
+        "zh": "俾 agent 讀取同控制右邊 Sidebar 瀏覽器開住嘅網頁（桌面版全部功能；Web 版限同源）。"
+      },
+      "icon": "https://raw.githubusercontent.com/alvinlui-hk/dsh-browser-bridge/main/icon.svg",
+      "author": "alvinlui-hk",
+      "homepage": "https://github.com/alvinlui-hk/dsh-browser-bridge",
+      "repository": { "url": "https://github.com/alvinlui-hk/dsh-browser-bridge" },
+      "metadata": {
+        "category": "browser",
+        "keywords": ["browser", "sidebar", "webview", "automation", "browser-bridge"]
+      },
+      "versions": [
+        {
+          "version": "2.0.0",
+          "publishTimestamp": 1794040956,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.2-rc.1" }
+        }
+      ]
+    }
+  ]
+}
