@@ -27,8 +27,8 @@
       },
       "versions": [
         {
-          "version": "2.1.1",
-          "publishTimestamp": 1794049831,
+          "version": "2.1.2",
+          "publishTimestamp": 1794052800,
           "source": { "type": "npm" },
           "engines": { "dsh": ">=0.2.2-rc.1" }
         }
